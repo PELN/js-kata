@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: rgba(130, 223, 192, 0.678);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.cookieBox{
+    background-color: lightcoral;
+    width: 40vw;
+    height: 20vh;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transition: 0.6s;
+    transform: translateX(-40vw);
+}
+
+
+
+.cookieBox p {
+    padding: 2vw 2vw 0vw 2vw;
+}
+
+button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20vw;
+    background-color: rgba(157, 242, 248, 0.822);
+    border: none;
+    position: relative;
+    left: 25vw;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.863);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+
