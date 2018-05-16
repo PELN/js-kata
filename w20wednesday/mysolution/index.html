@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>w20wednesday</title>
+    <script src="Speak.js"></script>
+</head>
+<body>
+    <h1>To do list</h1>
+    <p>Make sure your audio is on, then...</p>
+    <button>Press me :-)</button>
+    <script>
+        let speech = new Speak();
+    document.querySelector("button").addEventListener("click",e=>{
+        speech.setVoice(48)
+        speech.speak("My to-do list")
+        speech.speak("Pick up the kids")
+        speech.speak("Buy milk")
+        speech.speak("Do some JavaScript")
+        speech.speak("Feed the kids")
+        speech.speak("Look at the hsl color format")
+        speech.speak("Ignore the kids")
+        speech.speak("Feed the cat")
+
+        //console.log(speech.getVoices(true))
+    })
+    </script>
+</body>
+</html>
