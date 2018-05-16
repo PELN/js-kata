@@ -1,3 +1,4 @@
+
 class Speak {
     constructor(){
         this.synth = window.speechSynthesis;
@@ -15,24 +16,29 @@ class Speak {
         }.bind(this);
         return this;
     }
+
     getVoices(output=false){
         if(!output){
             return this.voices;
         }
         console.table(this.voices)
     }
+
     setVoice(index){
         this.voice=index;
         return this;
     }
+    
     setPitch(pitch){
         this.pitch=pitch;
         return this;
     }
+
     setRate(rate){
         this.rate=rate;
         return this;
     }
+
     speak(what){
         let utterThis = new SpeechSynthesisUtterance(what);
         utterThis.voice = this.voices[this.voice];
@@ -42,5 +48,6 @@ class Speak {
         return this;
     }
     
-    
 }
+
+
