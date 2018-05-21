@@ -1,0 +1,19 @@
+#app {
+    background: #c0ffee;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#app div {
+    border-radius: 50%;
+    background: #bada55;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1.4s;
+    transform: translate(0,0)
+}
+
