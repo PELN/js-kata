@@ -94,9 +94,7 @@ function buildList() {
         let newElm = createLi(element);
     // append all the created <li>-elements to #thelist
         list.appendChild(newElm);
-   
     });
-
 }
 
 
@@ -107,8 +105,6 @@ function buildList() {
 
 
 
-
-// create divs
 const img = document.querySelector("#jsimg");
 
 img.addEventListener("click", randomMove);

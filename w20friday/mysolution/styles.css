@@ -34,12 +34,15 @@ h1 {
     position: relative;
     top: 3vw;
     left: 3vw;
+}
 
-    
+#jsimg:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 #text {
-    color:white;
+    color:rgb(223, 250, 255);
     font-size: 1.4em;
     position: relative;
     top: -3vw;
@@ -114,7 +117,6 @@ li {
     list-style-type: upper-roman;
     color: khaki;
     font-size: 2em;
-
 }
 
 li:hover {
